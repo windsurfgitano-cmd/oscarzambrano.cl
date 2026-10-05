@@ -37,6 +37,7 @@ const reader=supported?createAudioReader({audio,onState(state){
  read.textContent=state==='loading'?'Cargando voz…':state==='playing'?'Pausar voz':state==='paused'?'Continuar voz':'Escuchar a Oscar';
  read.disabled=state==='loading';
  read.setAttribute('aria-pressed',String(state==='playing'||state==='paused'));stop.disabled=state==='idle'||state==='error';
+ if(state==='idle')status.textContent='';
  if(state==='loading')status.textContent='Cargando la voz de Oscar.';
  if(state==='playing')status.textContent='Escuchando a Oscar. Capítulo '+(spokenIndex+1)+': '+names[chapters[spokenIndex].id]+'.';
  if(state==='paused')status.textContent='Voz en pausa.';
