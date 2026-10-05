@@ -1,0 +1,33 @@
+{
+  "name": "Oscar Zambrano",
+  "url": "https://oscarzambrano.cl/",
+  "description": "Oscar Zambrano crea agentes de IA y experiencias digitales en Chile. Conoce Tribu Impulsa, Consejeros IA, sus charlas y su mirada sobre inteligencia artificial.",
+  "topics": [
+    "IA agéntica",
+    "Agentes de inteligencia artificial",
+    "Experiencias digitales",
+    "Charlas de inteligencia artificial",
+    "Cursos de inteligencia artificial"
+  ],
+  "projects": [
+    {
+      "name": "Tribu Impulsa",
+      "url": "https://www.tribuimpulsa.cl/"
+    },
+    {
+      "name": "Consejeros IA",
+      "url": "https://www.consejerosia.cl/"
+    }
+  ],
+  "publicAppearances": [
+    {
+      "title": "Agentes Crean Agentes",
+      "host": "RE/MAX Chile",
+      "venue": "Novotel Vitacura",
+      "date": "2026-09-21",
+      "source": "https://oscarzambrano.cl/#en-escena"
+    }
+  ],
+  "contact": "https://www.instagram.com/oscarzambrano.cl/",
+  "updated": "2026-10-05"
+}

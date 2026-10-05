@@ -1,0 +1,72 @@
+/* On a phone, Oscar belongs to each scene instead of floating over its copy. */
+.mobile-scene{display:none}
+@media(max-width:720px){
+ .stage,.scroll-progress{display:none}
+ .site-header{min-height:104px;padding:8px 20px;gap:0 12px}
+ .site-header nav a{padding:6px 0}
+ .chapter,.static-motion .chapter{min-height:0;pointer-events:auto;scroll-margin-top:-2.5rem}
+ .chapter .scene-content{position:relative;top:auto;display:block;height:auto;min-height:0;padding:2.5rem 22px 4.5rem}
+ .scene-content::before{display:none}
+ .hero .scene-content{padding-top:calc(var(--header-height) + 1rem);padding-bottom:3rem}
+ .hero-copy,.question-copy,.create-copy,.voice-copy,.curiosity-copy,.contact-content{width:100%;margin:0}
+ .hero h1{margin-bottom:1rem}
+ .hero-line{margin-bottom:0}
+ .positioning-line{margin:.75rem 0;max-width:100%}
+ .hero .intro{max-width:100%}
+ .journey-link{margin-top:1rem}
+ .hero-bottom{margin:1.5rem 0 0;padding:0;background:none;font-size:var(--type-small)}
+ .hero-bottom div{width:100%;justify-content:space-between;gap:1rem}
+ .scroll-hint{display:none}
+ .chapter h2{margin:0 0 1rem;position:relative;z-index:2}
+ .question-copy h2{text-align:right;margin-right:4px}
+ .create-description{width:100%;max-width:100%;margin:1rem 0 0}
+ .chapter p{margin-top:0;margin-bottom:1rem}
+ .chapter .closing-line{margin-top:1.25rem}
+ .mobile-scene{display:block;position:relative;isolation:isolate;height:clamp(250px,75vw,340px);margin:0 -8px 1rem;pointer-events:none;overflow:clip}
+ .mobile-scene::before{content:'';position:absolute;inset:10% -10% 0;background:radial-gradient(ellipse at 58% 52%,#822bff38,transparent 65%);z-index:-1}
+ .mobile-oscar,.mobile-object{position:absolute;display:block;object-fit:contain;filter:drop-shadow(0 14px 18px #0005)}
+ .mobile-oscar{height:calc(100% - 32px);width:68%;right:0;top:16px;object-position:center top}
+ .mobile-object{width:63%;height:68%;left:-1%;bottom:8%;object-position:center;z-index:-1}
+ .mobile-scene--hero{height:clamp(270px,74vw,340px);margin:0 -8px .5rem}
+ .mobile-scene--hero .mobile-oscar{height:160%;width:76%;right:0;top:16px}
+ .mobile-scene--hero .mobile-object{width:72%;height:85%;left:-7%;bottom:1%;transform:rotate(-8deg)}
+ .mobile-scene--pregunta{margin-top:-.75rem}
+ .mobile-scene--pregunta .mobile-oscar,.mobile-scene--explora .mobile-oscar{right:auto;left:-2%;width:60%}
+ .mobile-scene--pregunta .mobile-object,.mobile-scene--explora .mobile-object{left:auto;right:-5%;width:66%;bottom:4%;transform:rotate(-10deg)}
+ .mobile-scene--dirige .mobile-oscar{right:-4%;width:67%}
+ .mobile-scene--dirige .mobile-object{left:-4%;width:70%;height:77%;bottom:0}
+ .mobile-scene--explica .mobile-object{width:34%;height:58%;left:8%;bottom:10%;z-index:1;transform:rotate(-8deg)}
+ .mobile-scene--saluda{height:210px;margin-top:-.5rem}
+ .mobile-scene--saluda .mobile-oscar{width:62%;height:135%;left:auto;right:3%;top:12px}
+ .handwritten-note{position:relative;inset:auto;display:inline-block;margin:0 0 2rem 22px;font-size:var(--type-lead);padding:0;background:none;transform:rotate(-4deg)}
+ .event{margin-top:1.5rem}
+ .event h3{margin-bottom:.75rem}
+ .event p{margin:0}
+ .quiet-line{margin-top:1.5rem!important}
+ .contact .instagram-link{font-size:var(--type-body);gap:1rem}
+ .commercial-link{margin-top:1.25rem!important}
+ .closing-signature{margin-top:2rem;width:100%}
+ .obras{padding:3rem 22px 3.5rem;border-radius:28px 28px 0 0}
+ .project-pair{gap:3rem;margin-top:1.5rem}
+ .project-art{height:auto;aspect-ratio:900/618;margin:0 -10px}
+ .project-art img{width:100%;height:100%}
+ .project-art::before{display:none}
+ .project-copy{padding-top:1.25rem;margin-top:.5rem}
+ .project h3{margin-bottom:1rem}
+ .other-works{margin-top:2.5rem!important}
+ .manifesto{min-height:0;padding:3rem 22px 4rem}
+ .manifesto-copy{margin-top:1.75rem;padding-left:1rem}
+ .manifesto-copy .manifesto-closing{margin-bottom:0}
+ .reading-layout .mobile-scene{display:none}
+ .reading-layout .chapter .scene-content{padding:3rem 5vw;min-height:0}
+ .reading-layout .hero-copy,.reading-layout .question-copy,.reading-layout .create-copy,.reading-layout .voice-copy,.reading-layout .curiosity-copy,.reading-layout .contact-content{margin:0}
+ .reading-layout .hero .scene-content{padding-top:3rem}
+ .reading-layout p{overflow-wrap:anywhere}
+}
+@media(max-width:370px){
+ .mobile-scene{height:250px}
+ .mobile-scene--hero{height:270px}
+ .mobile-scene--saluda{height:200px}
+}
+@media(prefers-reduced-motion:reduce){.mobile-oscar,.mobile-object{transform:none!important}}
+@media(forced-colors:active){.mobile-scene{display:none}}

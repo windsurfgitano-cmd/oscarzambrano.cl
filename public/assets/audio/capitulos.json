@@ -1,0 +1,87 @@
+{
+  "voice": "Oscar-zambrano",
+  "model": "Eleven v4",
+  "master_duration": 139.284688,
+  "chapters": [
+    {
+      "id": "inicio",
+      "title": "Inicio",
+      "text": "Oscar Zambrano. Creo agentes. Diseño experiencias digitales. Una voz emergente de la IA agéntica en Chile. Me gusta ese momento en que una idea empieza a cambiarlo todo. Ideas que puedes usar, vivir y compartir.",
+      "source_start": 0,
+      "source_end": 15.53,
+      "duration": 15.53,
+      "bytes": 187186,
+      "src": "/assets/audio/inicio.mp3"
+    },
+    {
+      "id": "mirada",
+      "title": "Mirada",
+      "text": "¿Y si...? A veces una pregunta cambia todo. Dos ideas que parecían lejanas se encuentran. Una conversación cambia de dirección. Y aparece una posibilidad que antes nadie estaba mirando. Ahí es donde me gusta estar.",
+      "source_start": 15.53,
+      "source_end": 31.01,
+      "duration": 15.48,
+      "bytes": 186559,
+      "src": "/assets/audio/mirada.mp3"
+    },
+    {
+      "id": "crear",
+      "title": "Crear",
+      "text": "Una idea. Un mundo por crear. Agentes que trabajan juntos. Experiencias que invitan a participar. Le doy un propósito a cada pieza y encuentro cómo se relacionan. Hasta que una intuición se convierte en algo que podemos vivir. Imaginar. Conectar. Hacer.",
+      "source_start": 31.01,
+      "source_end": 49.26,
+      "duration": 18.25,
+      "bytes": 219787,
+      "src": "/assets/audio/crear.mp3"
+    },
+    {
+      "id": "obras",
+      "title": "Obras",
+      "text": "Las ideas encuentran su lugar. Tribu Impulsa. Un espacio para que emprendedores se encuentren, compartan lo que hacen y conecten con su comunidad. Consejeros IA. Una mesa de especialistas sintéticos que reúne distintas miradas para explorar decisiones de negocio. También en mi recorrido: El Rey de las Páginas y Ultra Infinity Software.",
+      "source_start": 49.26,
+      "source_end": 70.79,
+      "duration": 21.53,
+      "bytes": 259284,
+      "src": "/assets/audio/obras.mp3"
+    },
+    {
+      "id": "en-escena",
+      "title": "En escena",
+      "text": "Las ideas también se conversan. En charlas y cursos comparto mi mirada sobre la inteligencia artificial, los agentes y las posibilidades que abren. Agentes Crean Agentes. Rémax Chile. Novotel Vitacura. Veintiuno de septiembre de dos mil veintiséis.",
+      "source_start": 70.79,
+      "source_end": 87.94,
+      "duration": 17.15,
+      "bytes": 206621,
+      "src": "/assets/audio/en-escena.mp3"
+    },
+    {
+      "id": "curiosidad",
+      "title": "Curiosidad",
+      "text": "Por pura curiosidad. También lo hago por diversión. Aprender. Crear experiencias digitales. Armar sistemas completos de agentes solo para ver qué pasa. La curiosidad sigue encendida incluso cuando no hay un proyecto que entregar. También disfruto pasar tiempo con mi familia. ¿Y si probamos...?",
+      "source_start": 87.94,
+      "source_end": 107.19,
+      "duration": 19.25,
+      "bytes": 231698,
+      "src": "/assets/audio/curiosidad.mp3"
+    },
+    {
+      "id": "lo-que-me-mueve",
+      "title": "Lo que me mueve",
+      "text": "Que algo te pase. Una conversación que abre una posibilidad. Una herramienta que vuelves a usar. Una experiencia que se te queda. Eso busco cuando creo. Darle forma a una idea hasta que alguien pueda hacer algo con ella, descubrir algo o mirar distinto. Me gustan las ideas con carácter. Las que encuentran a su gente y dejan una huella.",
+      "source_start": 107.19,
+      "source_end": 129.74,
+      "duration": 22.55,
+      "bytes": 271509,
+      "src": "/assets/audio/lo-que-me-mueve.mp3"
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "text": "¿Qué idea te está dando vueltas? Conversemos en Instagram. Para proyectos y servicios, Ultra Infinity. Oscar Zambrano. La conversación sigue.",
+      "source_start": 129.74,
+      "source_end": 139.284688,
+      "duration": 9.544694,
+      "bytes": 115401,
+      "src": "/assets/audio/contacto.mp3"
+    }
+  ]
+}

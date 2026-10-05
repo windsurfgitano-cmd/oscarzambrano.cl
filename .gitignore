@@ -4,3 +4,5 @@ node_modules/
 qa/
 .env
 .env.*
+
+/public/qa-a11y/

@@ -1,0 +1,17 @@
+# Oscar Zambrano
+
+> Perfil oficial de Oscar Zambrano, creador de agentes de IA y experiencias digitales en Chile.
+
+Este sitio presenta su trabajo, proyectos y participaciones públicas. La expresión voz emergente describe su posicionamiento de marca; el sitio no publica un ranking nacional ni premios no documentados.
+
+## Perfil público
+
+- [Perfil, proyectos, charla y mirada creativa](https://oscarzambrano.cl/index.md): versión Markdown del contenido público.
+- [Perfil completo](https://oscarzambrano.cl/llms-full.txt): información pública reunida en un documento.
+
+## Referencias y contacto
+
+- [Tribu Impulsa](https://www.tribuimpulsa.cl/): comunidad y conexiones para emprendedores.
+- [Consejeros IA](https://www.consejerosia.cl/): distintas miradas para decisiones de negocio.
+- [Instagram de Oscar](https://www.instagram.com/oscarzambrano.cl/): conversación y participaciones.
+- [Ultra Infinity](https://www.ultra-infinity.com/): proyectos y servicios comerciales.

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /qa-a11y/
 
 Sitemap: https://oscarzambrano.cl/sitemap.xml
