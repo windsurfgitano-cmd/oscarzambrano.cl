@@ -4,6 +4,12 @@
   "buildCommand": null,
   "installCommand": null,
   "outputDirectory": "public",
+  "functions": {
+    "api/radar.py": {
+      "maxDuration": 30,
+      "excludeFiles": "{public/**,tests/**,docs/**,qa/**}"
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",

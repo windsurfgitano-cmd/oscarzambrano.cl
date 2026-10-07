@@ -6,3 +6,5 @@ qa/
 .env.*
 
 /public/qa-a11y/
+__pycache__/
+*.pyc

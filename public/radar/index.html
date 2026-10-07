@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Radar IA gratuito — Oscar Zambrano</title>
+ <meta name="description" content="Explora noticias de inteligencia artificial de las últimas 24 y 48 horas. Filtra por tema, comprueba fechas y abre las fuentes. Un regalo de Oscar Zambrano, sin registro.">
+ <meta name="theme-color" content="#07050d"><link rel="canonical" href="https://www.oscarzambrano.cl/radar/">
+ <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+ <link rel="preload" href="/assets/Anton.woff2" as="font" type="font/woff2" crossorigin>
+ <link rel="preload" href="/assets/Inter.woff2" as="font" type="font/woff2" crossorigin>
+ <link rel="stylesheet" href="/radar/radar.css?v=20261007-1">
+ <script type="module" src="/radar/radar.js?v=20261007-1"></script>
+ <meta property="og:title" content="Radar IA — mi regalo de cumpleaños es para ti">
+ <meta property="og:description" content="Noticias de IA, fechas visibles y fuentes para comprobar. Gratis y sin registro. Por Oscar Zambrano.">
+ <meta property="og:url" content="https://www.oscarzambrano.cl/radar/"><meta property="og:type" content="website">
+ <meta property="og:image" content="https://www.oscarzambrano.cl/assets/oscar-orquestando.png">
+ <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+ <a class="skip" href="#noticias">Ir a las noticias</a>
+ <header class="header wrap">
+  <a class="signature" href="/" aria-label="Oscar Zambrano, inicio"><svg viewBox="0 0 272 60" aria-hidden="true"><defs><filter id="white"><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 .2126 .7152 .0722 0 0"/><feComponentTransfer><feFuncA type="linear" slope="3" intercept="-1"/></feComponentTransfer></filter></defs><image href="/assets/firma-recorte.png" width="272" height="60" filter="url(#white)"/></svg></a>
+  <nav aria-label="Principal"><a href="#noticias">Explorar</a><button type="button" id="share">Compartir radar</button></nav>
+ </header>
+ <main>
+  <section class="hero wrap" aria-labelledby="title">
+   <div class="hero-copy"><p class="gift">Un regalo de cumpleaños para ti.</p><h1 id="title">Radar IA</h1><p class="hero-statement">Tu próxima buena idea<br>empieza aquí.</p><p class="intro">Encuentra qué se está publicando en inteligencia artificial. Elige tu tema, mira la fecha y abre la fuente.</p><a class="primary" href="#noticias">Encontrar algo útil</a><p class="free">Gratis. Sin registro. Hecho por Oscar Zambrano.</p></div>
+   <div class="hero-world" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="signal signal-a">Agentes</span><span class="signal signal-b">Crear</span><span class="signal signal-c">Modelos</span><img src="/assets/capas/dirige.webp" alt="" width="390" height="470" fetchpriority="high"><div class="world-floor"></div></div>
+  </section>
+  <section class="radar wrap" id="noticias" tabindex="-1" aria-labelledby="news-title">
+   <div class="radar-heading"><h2 id="news-title">Sigue la señal.</h2><button type="button" id="reload">Consultar fuentes</button></div>
+   <p id="updated" class="updated" aria-live="polite">Consultando las fuentes…</p>
+   <form class="filters" id="filters" role="search" aria-label="Filtrar noticias">
+    <fieldset class="period"><legend>Publicadas en las últimas</legend><label><input type="radio" name="hours" value="24" checked><span>24 horas</span></label><label><input type="radio" name="hours" value="48"><span>48 horas</span></label></fieldset>
+    <div class="search-field"><label for="search">Buscar una noticia</label><input type="search" id="search" name="query" placeholder="Claude, voz, agentes…" autocomplete="off"></div>
+    <div class="select-field"><label for="topic">Me interesa</label><select id="topic" name="topic"><option value="todos">Todos los temas</option><option value="agentes">Agentes</option><option value="modelos">Modelos</option><option value="crear">Crear</option><option value="trabajo">Trabajo</option></select></div>
+   </form>
+   <div class="result-line"><p id="count" role="status">Preparando noticias.</p><button id="clear" type="button">Limpiar filtros</button></div>
+   <p class="date-note">La fecha corresponde a la publicación en la fuente. Un artículo nuevo puede hablar de un anuncio antiguo: comprueba el original antes de compartir.</p>
+   <div id="results" aria-busy="true"></div>
+   <noscript><p>Activa JavaScript para filtrar. Puedes consultar directamente <a href="https://openai.com/news/">OpenAI</a>, <a href="https://huggingface.co/blog">Hugging Face</a> y <a href="https://techcrunch.com/category/artificial-intelligence/">TechCrunch IA</a>.</p></noscript>
+   <details class="source-details"><summary>Qué fuentes estamos consultando</summary><div id="sources"></div><p>Los titulares conservan el idioma de su fuente. Las categorías se asignan por palabras del título y resumen; no son recomendaciones verificadas. Este radar no incluye tendencias de X.</p></details>
+  </section>
+  <section class="takeaway wrap" aria-labelledby="gift-title"><div><h2 id="gift-title">Que circule<br>lo que sirve.</h2><p>Guárdalo para tu próxima búsqueda o compártelo con esa persona que siempre te manda novedades de IA.</p><button type="button" id="share-bottom" class="primary">Compartir el radar</button></div><div class="takeaway-right"><p>¿Quieres adaptarlo a tus propias fuentes?</p><a class="kit" href="/radar/kit-radar.zip" download>Descargar el kit del radar <span>Colector + guía de uso. Sin claves de API.</span></a><p class="kit-note">El kit requiere Python 3 para ejecutarse. Puedes usar la herramienta de arriba sin instalar nada.</p><a class="instagram" href="https://www.instagram.com/oscarzambrano.cl/" target="_blank" rel="noopener noreferrer">Más ideas y herramientas en @oscarzambrano.cl</a></div></section>
+ </main>
+ <footer class="wrap"><a href="/">Oscar Zambrano</a><span>Creado el 7 de octubre de 2026 para compartir.</span></footer>
+ <div id="toast" role="status" class="toast" hidden></div>
+</body>
+</html>
