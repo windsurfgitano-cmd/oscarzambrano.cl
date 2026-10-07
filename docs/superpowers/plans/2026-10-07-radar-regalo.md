@@ -49,7 +49,7 @@ Consumes: el JSON de Task 1. Produces: `/radar/`, búsqueda, tema, filtros 24/48
 - [x] Implementar interfaz con contenido externo insertado como texto, foco visible, estado accesible y alternativa sin JavaScript.
 - [x] Ejecutar las suites Python y Node completas; comprobar la web en navegador móvil y escritorio, búsqueda y enlaces.
 - [x] Empaquetar colector y guía sin credenciales. Añadir acceso al radar en la landing y sitemap.
-- [ ] Publicar vía push al repo existente; comprobar despliegue y API públicos. No afirmar lanzamiento antes de esta comprobación.
+- [x] Publicar vía push al repo existente; comprobar despliegue y API públicos. No afirmar lanzamiento antes de esta comprobación.
 
 ## Video asociado
 
